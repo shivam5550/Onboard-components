@@ -1,7 +1,6 @@
 import react from "react";
 import styles from "./metaverse.module.css"
 import clsx from "clsx";
-import { PaintBrushHousehold } from "phosphor-react";
 
 const Metaverse = ({className}:any) => {
     return (
@@ -17,12 +16,15 @@ const Metaverse = ({className}:any) => {
           <i className={styles.circle}>
           <span><i className="ph-headset-bold"></i></span>
           </i>
+          <div className={styles.dash}></div>
           <i className={styles.circle}>
           <span><i className="ph-lightbulb-bold"></i></span>
           </i>
+          <div className={styles.dash}></div>
           <i className={styles.circle}>
           <span><i className="ph-paint-brush-household-bold"></i></span>
           </i>
+          <div className={styles.dash}></div>
           <i className={styles.circle}>
           <span><i className="ph-rocket-launch-bold"></i></span>
           </i>

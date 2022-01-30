@@ -98,8 +98,13 @@
 .contentIcons{
     display: flex;
     flex-direction: row;
-    gap: 10.5rem;
-    
+  
+}
+.dash{
+  border-bottom: 3px dashed #E1E1E1;
+  width: 10.5rem;
+  height: 30px;
+
 }
 
 .content {
