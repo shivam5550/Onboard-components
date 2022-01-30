@@ -1,0 +1,141 @@
+.mainDiv {
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background: #ffffff;
+  box-shadow: 19px 19px 48px rgba(230, 230, 230, 0.9);
+  border-radius: 20px;
+  padding-bottom: 40px;
+}
+
+.heading {
+  font-family: "Poppins";
+  font-size: 48px;
+}
+
+.the {
+  margin-top: -45px !important;
+  font-size: 48px;
+  padding-bottom: 10px;
+  font-family: "Poppins";
+}
+
+.inr {
+  background: -webkit-linear-gradient(
+    60deg,
+    rgba(141, 0, 253, 1) 4%,
+    rgba(231, 13, 140, 1) 49%,
+    rgba(237, 77, 107, 1),
+    rgba(246, 164, 76, 1) 85%,
+    rgba(252, 199, 55, 1) 92%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.join {
+  margin-top: -20px !important;
+  font-size: 20px;
+  font-family: "Poppins";
+}
+
+.Hr {
+  margin: 80px 0 50px 0;
+  border: 1px solid #dadada;
+  width: 6%;
+}
+
+.approach {
+  font-family: "Poppins";
+  font-size: 32px;
+  margin-bottom: 60px;
+}
+
+.afterApp {
+  display: flex;
+  align-items: center;
+}
+
+.divider {
+  flex-grow: 1;
+  color: #f1f1f1;
+  font-weight: 700;
+  font-size: 20px;
+  margin: 5px;
+}
+.circle {
+  background-color: #f1f1f1;
+  border-radius: 50%;
+  border: 1px solid #f1f1f1;
+  padding: 10px;
+}
+.circle span {
+  display: table-cell;
+  vertical-align: middle;
+  font-size: 30px;
+  height: 40px;
+  width: 40px;
+  text-align: center;
+  padding: 0px;
+  background: -webkit-linear-gradient(
+    60deg,
+    rgba(141, 0, 253, 1) 4%,
+    rgba(231, 13, 140, 1) 49%,
+    rgba(237, 77, 107, 1),
+    rgba(246, 164, 76, 1) 85%,
+    rgba(252, 199, 55, 1) 92%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.contents{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+
+.contentIcons{
+    display: flex;
+    flex-direction: row;
+    gap: 10.5rem;
+    
+}
+
+.content {
+  text-align: center;
+  margin-top: 0;
+}
+.content li {
+  list-style-type: none;
+  max-width: 200px;
+  word-wrap: break-word;
+  font-size: 16px;
+}
+
+.content h3 {
+    font-size: 24px;
+    font-family: "Poppins";
+    line-height: 4px;
+}
+
+.divider2 {
+    flex-grow: 1;
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+    margin: 5px;
+  }
+
+.chat{
+   color: rgb(182, 15, 182);
+}
+.ideation{
+    color:rgba(231, 13, 140, 1);
+}
+.creation{
+    color:rgb(255, 142, 22);
+}
+.launch{
+    color:rgb(255, 190, 10);
+}

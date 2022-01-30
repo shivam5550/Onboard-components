@@ -1,0 +1,158 @@
+.mainDiv {
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: #ffffff;
+    box-shadow: 19px 19px 48px rgba(230, 230, 230, 0.9);
+    border-radius: 20px;
+    padding-bottom: 40px;
+  }
+  
+  .heading {
+    font-family: "Poppins";
+    font-size: 48px;
+  }
+  
+  .the {
+    margin-top: -45px !important;
+    font-size: 48px;
+    padding-bottom: 10px;
+    font-family: "Poppins";
+  }
+  
+  .inr {
+    background: -webkit-linear-gradient(
+      60deg,
+      rgba(141, 0, 253, 1) 4%,
+      rgba(231, 13, 140, 1) 49%,
+      rgba(237, 77, 107, 1),
+      rgba(246, 164, 76, 1) 85%,
+      rgba(252, 199, 55, 1) 92%
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .join {
+    margin-top: -20px !important;
+    font-size: 20px;
+    font-family: "Poppins";
+  }
+  
+  .NameEmail{
+      display: flex;
+      flex-direction: row;
+      width: 100%;
+      margin-top: 50px;
+      gap: 4rem;
+      justify-content: center;
+      align-items: center;
+  }
+
+.Form{
+    width: 20%;
+}
+  form label{
+      font-weight: 700;
+      font-family: 'Poppins';
+      font-size: 12px;
+      display: block;
+      color: #B1B5C3;
+      margin-bottom: 8px;
+  }
+  .Input {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border-width: 2px;
+    border-color: #d8d8d8;
+    background-color: #FFFFFF;
+    color: #8f929a;
+    border-style: solid;
+    border-radius: 10px;
+    box-shadow: -50px 0px 0px rgba(66,66,66,.0);
+    text-shadow: -50px 0px 0px rgba(255,255,255,.0);
+}
+.Input:focus {
+    outline:none;
+}
+
+.afterName{
+    display: flex;
+    flex-direction: column;
+    margin-top: 22px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.Form2{
+    width: 44%;
+}
+
+.content{
+    font-family: 'Poppins';
+    margin-top: 10px;
+    margin-right: 11vw;
+}
+.up {
+    border-radius: 100rem;
+    position: relative;
+    height: 35px;
+    width: 100%;
+    justify-content: center !important;
+    align-items: center !important;
+    margin-right:1vw;
+    padding: 0 !important;
+    padding: 0px 10px !important;
+    font-size: 16px !important;
+    font-weight: 700 !important;
+    letter-spacing: 0em !important;
+    font-family: 'Poppins';
+    text-align: center !important;
+    border-radius: 24.5px !important;
+    border: solid 3px transparent !important;
+    background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(60deg, rgba(141, 0, 253, 1) 4%, rgba(231, 13, 140, 1) 49%, rgba(237, 77, 107, 1),
+    rgba(246, 164, 76, 1) 85%, rgba(252, 199, 55, 1) 92%);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    box-shadow: 2px 1000px 1px #fff inset;
+    margin-top: 50px;
+  }
+  
+  .up:active, .up:focus {
+    color: white !important;
+  
+  }
+  
+  .uptxt{
+    background: -webkit-linear-gradient(27deg, rgba(158,1,235,1) 0%, rgba(211,24,126,1) 49%, rgba(243,189,56,1) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  }
+
+@media only screen and (max-width:1416px){
+    .content{
+        margin-right: 8vw;
+    }
+
+}
+
+@media only screen and (max-width:1316px){
+    .content{
+        margin-right: 6vw;
+    }
+
+}
+@media only screen and (max-width:1216px){
+    .content{
+        margin-right: 3vw;
+    }
+
+}
+@media only screen and (max-width:1116px){
+    .content{
+        margin-right: 0vw;
+    }
+
+}
